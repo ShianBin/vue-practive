@@ -4,7 +4,7 @@
       <!-- LOGO 圖片 -->
       <div class="logo-and-title">
         <img src="../assets/vue.svg" alt="Logo" class="logo" />
-        <h1>語言治療所</h1>
+        <h1>網站</h1>
       </div>
       <nav>
         <router-link to="/">首頁</router-link> |
@@ -21,20 +21,23 @@
 
 <style>
 header {
+  max-width: 1024px; /* 最大寬度為 1024px */
+  margin: 0 auto; /* 上下邊距為 0，左右自動（自動居中） */
   background-color: white;
   text-align: center;
   padding: 10px 0;
   position: fixed;
-  top: 5px;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 1000; /* 高於其他元素 */
 }
 
 .header-content {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo-and-title {
@@ -62,6 +65,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   border-radius: 10px;
+  margin-right: 20px;
 }
 
 nav a {
