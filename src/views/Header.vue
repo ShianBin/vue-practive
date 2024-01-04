@@ -61,6 +61,7 @@ nav {
   background-color: #ffccd5; /* 馬卡龍粉紅背景顏色 */
   text-align: center;
   padding: 10px 0;
+  border-radius: 10px;
 }
 
 nav a {
