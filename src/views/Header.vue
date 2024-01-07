@@ -4,7 +4,7 @@
       <!-- LOGO 圖片 -->
       <div class="logo-and-title">
         <img src="../assets/vue.svg" alt="Logo" class="logo" />
-        <h1>網站</h1>
+        <h1>Vue-Practive</h1>
       </div>
       <nav>
         <router-link to="/">首頁</router-link> |

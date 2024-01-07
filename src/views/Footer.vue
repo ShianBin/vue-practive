@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>版權 © 2024 網站</p>
+    <p>版權 © 2024 Vue-Practive</p>
   </footer>
 </template>
 
