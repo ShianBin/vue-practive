@@ -7,11 +7,11 @@
         <h1>Vue-Practive</h1>
       </div>
       <nav>
-        <router-link to="/">首頁</router-link> |
+        <router-link to="/">介紹</router-link> |
         <router-link to="/about">關於</router-link>|
         <router-link to="/Courses">課程</router-link>|
         <router-link to="/Environment">環境</router-link>|
-        <router-link to="/Contact">聯絡</router-link>
+        <router-link to="/Contact">參考</router-link>
       </nav>
     </div>
   </header>
@@ -61,7 +61,7 @@ h1 {
 }
 
 nav {
-  background-color: #ffccd5; /* 馬卡龍粉紅背景顏色 */
+  background-color: #79d19b; /* 馬卡龍粉紅背景顏色 */
   text-align: center;
   padding: 10px 0;
   border-radius: 10px;
@@ -78,6 +78,6 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff89a9; /* 懸浮時的淺粉紅色 */
+  color: #dafbe8; /* 懸浮時的淺粉紅色 */
 }
 </style>
